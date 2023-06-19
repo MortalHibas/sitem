@@ -1,0 +1,16 @@
+{
+  "domain": "ronnymethod.xyz",
+  "guildID": "793148611264380999",
+  "guildInvite": "https://discord.gg/CFV4fMqPZ9",
+  "codeLog": "1120366161587089469",
+  "bugLog": "1120366201672040568",
+  "ownerRole": "1120359296992038953",
+  "adminRole": "1120358311800352908",
+  "codeSharer": "1120358316963545201",
+  "booster": "1120366692963451030",
+  "notCodeSharer": [1120360330950881430],
+  "readySystemsRole": "1120366842226147428",
+  "diaRole": "1120358322047041556",
+  "goldRole": "1120358327004700784",
+  "normalRole": "1120358332100771971"
+}

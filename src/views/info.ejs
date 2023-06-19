@@ -1,0 +1,32 @@
+<html>
+  <body>
+    <%- include('partials/_header'); -%>
+    <%- include('partials/_loader'); -%>
+    <div class="info">
+      <h1>Bilgilendirme</h1>
+      <br>
+      <h5>
+        <span class="red">Not:</span> Methodları görebilmek için sunucumuzda olmanız gerekmektedir!
+        <br><br>
+        <span style="color: #bfe1ff;">@Normal Methodlar</span>: Discord sunucumuza katılarak ücretsiz bir şekilde alabilirsiniz.
+        <br>
+        <span style="color: #F1C531;">@Altın Methodlar</span>: Ücreti 20₺ dir. ronnymethod.com.tr üzerinden satın alabilirsiniz.
+        <br>
+        <span style="color: #3998DB;">@Diamond Codes</span>: Ücreti 50₺ dir. ronnymethod.com.tr üzerinden satın alabilirsiniz.
+        <br>
+        <span style="color: #f80000;">@Hazır Methodlar</span>: Bize abone olarak ve instagramdan takip ederek alabilirsiniz.
+      </h5>
+    </div>
+
+    <script>
+      if (localStorage.getItem("mode") != "") {
+        document.body.classList.add(localStorage.getItem("mode"));
+        document.getElementById("mode-btn").checked = true;
+      }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/index.js"></script>
+    <%- include('partials/_footer'); -%>
+  </body>
+</html>

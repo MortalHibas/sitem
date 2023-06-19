@@ -1,0 +1,7 @@
+{
+  "mongoURL": "mongodb+srv://deneme:r00tz@deneme.retrcuj.mongodb.net/?retryWrites=true&w=majority",
+  "clientID": "1120368699522691152",
+  "token": "",
+  "secret": "Z2j_tTdNhoR099_4jOxCVf6SRi7h00-f",
+  "callbackURL": "ronnymethod.xyz/callback"
+}
